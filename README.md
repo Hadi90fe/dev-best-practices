@@ -6,7 +6,7 @@ Welcome to the **Developpement Best Practices** repository! 🎉 This project pr
 
 Check out the following best practices documents to guide your development:
 
-- **🔧 [Node.js Best Practices](./markdown/best-practices/Node%20.js%20Best%20Practices.md)**: Efficient and maintainable Node.js coding guidelines.
+- **🔧 [Node.js Best Practices](./markdown/best-practices/Node.js%20Best%20Practices.md)**: Efficient and maintainable Node.js coding guidelines.
 - **🎨 [CSS Best Practices](./markdown/best-practices/CSS%20Best%20Practices.md)**: Clean and maintainable CSS tips.
 - **📜 [JavaScript Best Practices](./markdown/best-practices/JavaScript%20Best%20Practices.md)**: High-quality JavaScript coding practices.
 - **⚛️ [React Best Practices](./markdown/best-practices/React%20Best%20Practices.md)**: Scalable and maintainable React application recommendations.
