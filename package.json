@@ -1,0 +1,39 @@
+{
+  "name": "dev-best-practices",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This project provides comprehensive guidelines and best practices for various aspects of development",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hadi90fe/dev-best-practices.git"
+  },
+  "keywords": [
+    "best",
+    "practices",
+    "js",
+    "html",
+    "react",
+    "css",
+    "nextjs",
+    "nodejs"
+  ],
+  "author": "Elhadi Felfoul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hadi90fe/dev-best-practices/issues"
+  },
+  "homepage": "https://github.com/Hadi90fe/dev-best-practices#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "markdown-it": "^14.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

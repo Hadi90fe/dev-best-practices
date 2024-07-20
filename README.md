@@ -6,12 +6,12 @@ Welcome to the **Developpement Best Practices** repository! 🎉 This project pr
 
 Check out the following best practices documents to guide your development:
 
-- **🔧 [Node.js Best Practices](./Node.js%20Best%20Practices.md)**: Efficient and maintainable Node.js coding guidelines.
-- **🎨 [CSS Best Practices](./CSS%20Best%20Practices.md)**: Clean and maintainable CSS tips.
-- **📜 [JavaScript Best Practices](./JavaScript%20Best%20Practices.md)**: High-quality JavaScript coding practices.
-- **⚛️ [React Best Practices](./React%20Best%20Practices.md)**: Scalable and maintainable React application recommendations.
-- **📈 [Next.js Best Practices](./Next%20.js%20Best%20Practices.md)**: Best practices for developing with Next.js.
-- **🌐 [HTML Best Practices](./HTML%20Best%20Practices.md)**: Clean and semantic HTML guidelines.
+- **🔧 [Node.js Best Practices](./markdown/best-practices/Node%20.js%20Best%20Practices.md)**: Efficient and maintainable Node.js coding guidelines.
+- **🎨 [CSS Best Practices](./markdown/best-practices/CSS%20Best%20Practices.md)**: Clean and maintainable CSS tips.
+- **📜 [JavaScript Best Practices](./markdown/best-practices/JavaScript%20Best%20Practices.md)**: High-quality JavaScript coding practices.
+- **⚛️ [React Best Practices](./markdown/best-practices/React%20Best%20Practices.md)**: Scalable and maintainable React application recommendations.
+- **📈 [Next.js Best Practices](./markdown/best-practices/Next%20.js%20Best%20Practices.md)**: Best practices for developing with Next.js.
+- **🌐 [HTML Best Practices](./markdown/best-practices/HTML%20Best%20Practices.md)**: Clean and semantic HTML guidelines.
 
 ## 🔧 **Setup and Installation**
 
@@ -35,15 +35,19 @@ Get started with the project by following these steps:
     npm install
     ```
 
-4. **Start the development server**:
+4. **Start the Markdown server**:
+
+    To view Markdown files in your browser, run:
 
     ```bash
-    npm run dev
+    npm run start
     ```
+
+    Open `http://localhost:3000` in your browser and navigate to the Markdown file you want to view.
 
 ## 📄 **Documentation**
 
-For detailed documentation on the project, check out the `.md` files in the repository.
+For detailed documentation on the project, check out the `.md` files in the repository. You can view them directly using the Markdown server.
 
 ## 🛠️ **Contributing**
 
