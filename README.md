@@ -6,12 +6,12 @@ Welcome to the **Developpement Best Practices** repository! 🎉 This project pr
 
 Check out the following best practices documents to guide your development:
 
-- **🔧 [Node.js Best Practices](./Node.js Best Practices.md)**: Efficient and maintainable Node.js coding guidelines.
-- **🎨 [CSS Best Practices](./CSS Best Practices.md)**: Clean and maintainable CSS tips.
-- **📜 [JavaScript Best Practices](./JavaScript Best Practices.md)**: High-quality JavaScript coding practices.
-- **⚛️ [React Best Practices](./React Best Practices.md)**: Scalable and maintainable React application recommendations.
-- **📈 [Next.js Best Practices](./Next.js Best Practices.md)**: Best practices for developing with Next.js.
-- **🌐 [HTML Best Practices](./HTML Best Practices.md)**: Clean and semantic HTML guidelines.
+- **🔧 [Node.js Best Practices](./Node%20.js%20Best%20Practices.md)**: Efficient and maintainable Node.js coding guidelines.
+- **🎨 [CSS Best Practices](./CSS%20Best%20Practices.md)**: Clean and maintainable CSS tips.
+- **📜 [JavaScript Best Practices](./JavaScript%20Best%20Practices.md)**: High-quality JavaScript coding practices.
+- **⚛️ [React Best Practices](./React%20Best%20Practices.md)**: Scalable and maintainable React application recommendations.
+- **📈 [Next.js Best Practices](./Next%20.js%20Best%20Practices.md)**: Best practices for developing with Next.js.
+- **🌐 [HTML Best Practices](./HTML%20Best%20Practices.md)**: Clean and semantic HTML guidelines.
 
 ## 📂 **Repository Structure**
 
