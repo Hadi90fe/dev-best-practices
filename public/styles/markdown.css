@@ -1,0 +1,34 @@
+/* Add custom styling for Markdown content */
+.prose {
+    max-width: 65ch;
+    line-height: 1.75;
+    color: #333;
+}
+
+.prose h1 {
+    color: #1a202c;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+.prose h2 {
+    color: #2d3748;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+.prose ul {
+    padding-left: 1.5rem;
+}
+
+.prose a {
+    color: #3182ce;
+    text-decoration: underline;
+}
+
+.prose code {
+    background-color: #f7fafc;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+}

@@ -3,38 +3,58 @@ import path from 'path';
 import fs from 'fs';
 import markdown from 'markdown-it';
 
+// Initialize the app
 const app = express();
-const port = 3000;
+const port = 4321;
 const md = markdown();
 
-// Serve static files (optional, if you have other static assets)
+// Serve static files from the 'public' directory
 app.use(express.static('public'));
 
-// Root route to serve a welcome page or redirect
+// Root route to serve index.html
 app.get('/', (req, res) => {
-  res.send(`
-    <h1>Welcome to Developpement Best Practices</h1>
-    <p>Check out the best practices documents:</p>
-    <ul>
-      <li><a href="/markdown/best-practices/Node.js%20Best%20Practices.md">Node.js Best Practices</a></li>
-      <li><a href="/markdown/best-practices/CSS%20Best%20Practices.md">CSS Best Practices</a></li>
-      <li><a href="/markdown/best-practices/JavaScript%20Best%20Practices.md">JavaScript Best Practices</a></li>
-      <li><a href="/markdown/best-practices/React%20Best%20Practices.md">React Best Practices</a></li>
-      <li><a href="/markdown/best-practices/Next.js%20Best%20Practices.md">Next.js Best Practices</a></li>
-      <li><a href="/markdown/best-practices/HTML%20Best%20Practices.md">HTML Best Practices</a></li>
-    </ul>
-  `);
+  res.sendFile(path.join(process.cwd(), 'public', 'index.html'));
 });
 
 // Middleware to serve Markdown files
 app.get('/markdown/best-practices/:file', (req, res) => {
-  // Construct the file path based on the requested file
   const filePath = path.join(process.cwd(), 'markdown', 'best-practices', req.params.file);
 
-  // Check if the file exists and respond accordingly
   if (fs.existsSync(filePath)) {
     const fileContent = fs.readFileSync(filePath, 'utf8');
-    res.send(md.render(fileContent));
+    const htmlContent = md.render(fileContent);
+    res.send(`
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>${req.params.file}</title>
+          <link rel="stylesheet" href="/styles/tailwind.css">
+          <link rel="stylesheet" href="/styles/markdown.css">
+      </head>
+      <body class="bg-gray-100 text-gray-900 font-sans flex flex-col min-h-screen">
+          <header class="bg-gray-900 text-white shadow-md">
+              <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+                  <h1 class="text-3xl font-bold">Developpement Best Practices</h1>
+                  <nav>
+                      <ul class="flex space-x-4">
+                          <li><a href="/" class="hover:text-gray-300">Home</a></li>
+                      </ul>
+                  </nav>
+              </div>
+          </header>
+          <main class="flex-grow container mx-auto px-6 py-8">
+              <article class="prose lg:prose-xl mx-auto bg-white shadow-lg rounded-lg p-8">
+                  ${htmlContent}
+              </article>
+          </main>
+          <footer class="bg-gray-900 text-white text-center py-4 mt-6">
+              <p>&copy; 2024 Developpement Best Practices. All rights reserved.</p>
+          </footer>
+      </body>
+      </html>
+    `);
   } else {
     res.status(404).send('File not found');
   }
@@ -42,5 +62,5 @@ app.get('/markdown/best-practices/:file', (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Markdown server listening at http://localhost:${port}`);
+  console.log(`Server listening at http://localhost:${port}`);
 });

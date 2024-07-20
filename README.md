@@ -6,12 +6,12 @@ Welcome to the **Developpement Best Practices** repository! 🎉 This project pr
 
 Check out the following best practices documents to guide your development:
 
-- **🔧 [Node.js Best Practices](./markdown/best-practices/Node.js%20Best%20Practices.md)**: Efficient and maintainable Node.js coding guidelines.
-- **🎨 [CSS Best Practices](./markdown/best-practices/CSS%20Best%20Practices.md)**: Clean and maintainable CSS tips.
-- **📜 [JavaScript Best Practices](./markdown/best-practices/JavaScript%20Best%20Practices.md)**: High-quality JavaScript coding practices.
-- **⚛️ [React Best Practices](./markdown/best-practices/React%20Best%20Practices.md)**: Scalable and maintainable React application recommendations.
-- **📈 [Next.js Best Practices](./markdown/best-practices/Next.js%20Best%20Practices.md)**: Best practices for developing with Next.js.
-- **🌐 [HTML Best Practices](./markdown/best-practices/HTML%20Best%20Practices.md)**: Clean and semantic HTML guidelines.
+- **🔧 [Node.js Best Practices](./markdown/best-practices/Node.js-Best-Practices.md)**: Efficient and maintainable Node.js coding guidelines.
+- **🎨 [CSS Best Practices](./markdown/best-practices/CSS-Best-Practices.md)**: Clean and maintainable CSS tips.
+- **📜 [JavaScript Best Practices](./markdown/best-practices/JavaScript-Best-Practices.md)**: High-quality JavaScript coding practices.
+- **⚛️ [React Best Practices](./markdown/best-practices/React-Best-Practices.md)**: Scalable and maintainable React application recommendations.
+- **📈 [Next.js Best Practices](./markdown/best-practices/Next.js-Best-Practices.md)**: Best practices for developing with Next.js.
+- **🌐 [HTML Best Practices](./markdown/best-practices/HTML-Best-Practices.md)**: Clean and semantic HTML guidelines.
 
 ## 🔧 **Setup and Installation**
 
