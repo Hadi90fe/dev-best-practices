@@ -13,18 +13,6 @@ Check out the following best practices documents to guide your development:
 - **📈 [Next.js Best Practices](./Next%20.js%20Best%20Practices.md)**: Best practices for developing with Next.js.
 - **🌐 [HTML Best Practices](./HTML%20Best%20Practices.md)**: Clean and semantic HTML guidelines.
 
-## 📂 **Repository Structure**
-
-Here's a quick overview of the repository structure:
-
-- **`src/`** - Contains the source code of the application.
-- **`public/`** - Static assets and public files.
-- **`components/`** - Reusable components.
-- **`pages/`** - Page components for routing.
-- **`styles/`** - Stylesheets and styling-related files.
-- **`lib/`** - Utility functions and libraries.
-- **`docs/`** - Documentation files, including best practices.
-
 ## 🔧 **Setup and Installation**
 
 Get started with the project by following these steps:
@@ -55,7 +43,7 @@ Get started with the project by following these steps:
 
 ## 📄 **Documentation**
 
-For detailed documentation on the project, check out the `docs/` directory.
+For detailed documentation on the project, check out the `.md` files in the repository.
 
 ## 🛠️ **Contributing**
 
