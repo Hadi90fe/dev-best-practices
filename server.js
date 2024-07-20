@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
       <li><a href="/markdown/best-practices/CSS%20Best%20Practices.md">CSS Best Practices</a></li>
       <li><a href="/markdown/best-practices/JavaScript%20Best%20Practices.md">JavaScript Best Practices</a></li>
       <li><a href="/markdown/best-practices/React%20Best%20Practices.md">React Best Practices</a></li>
-      <li><a href="/markdown/best-practices/Next%20.js%20Best%20Practices.md">Next.js Best Practices</a></li>
+      <li><a href="/markdown/best-practices/Next.js%20Best%20Practices.md">Next.js Best Practices</a></li>
       <li><a href="/markdown/best-practices/HTML%20Best%20Practices.md">HTML Best Practices</a></li>
     </ul>
   `);
