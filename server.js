@@ -29,7 +29,7 @@ app.get('/markdown/best-practices/:file', (req, res) => {
       <head>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>${req.params.file}</title>
+          <title>${req.params.file.replace(/-/g, ' ').replace('.md', '')}</title>
           <link rel="stylesheet" href="/styles/tailwind.css">
           <link rel="stylesheet" href="/styles/markdown.css">
       </head>
@@ -44,7 +44,7 @@ app.get('/markdown/best-practices/:file', (req, res) => {
                   </nav>
               </div>
           </header>
-          <main class="flex-grow container mx-auto px-6 py-8">
+          <main class="w-full flex-grow container mx-auto px-6 py-8">
               <article class="prose lg:prose-xl mx-auto bg-white shadow-lg rounded-lg p-8">
                   ${htmlContent}
               </article>

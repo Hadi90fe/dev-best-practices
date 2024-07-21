@@ -8,7 +8,8 @@
     "build-css": "postcss src/styles/tailwind.css -o public/styles/tailwind.css",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run build-css && nodemon server.js",
-    "start": "npm run build-css && node server.js"
+    "start": "npm run build-css && node server.js",
+    "watch:css": "nodemon --watch build-css --ext scss --exec \"npm run build-css\""
   },
   "repository": {
     "type": "git",
