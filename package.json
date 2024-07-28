@@ -30,7 +30,7 @@
   "bugs": {
     "url": "https://github.com/Hadi90fe/dev-best-practices/issues"
   },
-  "homepage": "https://github.com/Hadi90fe/dev-best-practices#readme",
+  "homepage": "https://github.com/Hadi90fe/dev-best-practices#index",
   "dependencies": {
     "autoprefixer": "^10.4.19",
     "express": "^4.19.2",
